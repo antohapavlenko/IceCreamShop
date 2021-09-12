@@ -1,0 +1,58 @@
+body {
+    font-family: $primary-font;
+    background-color: #ffffff;
+    letter-spacing: 0.03em;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and(min-width:380px) {
+        width: 380px;
+    }
+
+     @media screen and(min-width:768px) {
+        width: 768px;
+    }
+
+     @media screen and(min-width:1280px) {
+        width: 1280px;
+    }
+}
+
+.section {
+    padding-left: 20px;
+    padding-right: 20px;
+    @media screen and (min-width: 768px) {
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+    @media screen and (min-width: 1280px) {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    
+}

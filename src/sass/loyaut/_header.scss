@@ -1,0 +1,35 @@
+
+
+
+.header__title {
+    position: relative;
+    display: block;
+    max-width: 218px;
+    width: auto;
+    
+    margin-bottom: 19px;
+    font-family: $secondary-font;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $text-secondary;
+    @media screen and (min-width: 768px){
+        max-width: 162px;
+        width: auto;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 25px;
+        letter-spacing: 0.04em;
+    }
+
+    @media screen and (min-width: 1280px) {
+        max-width: 277px;
+        width: auto;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 44px;
+        letter-spacing: 0.04em;
+    }
+}
