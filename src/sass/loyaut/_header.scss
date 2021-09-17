@@ -1,5 +1,6 @@
 .header {
     background-color: $bg-hero;
+    margin-bottom: 120px;
 }
 
 
@@ -18,7 +19,6 @@
     }
 
     @media screen and (min-width: 1280px) {
-        margin-left: -79px;
         width: 170px;
         height: auto;
         padding-bottom: 84px;
@@ -58,7 +58,7 @@
 
 .header__close--button {
     position: absolute;
-    left: 280px;
+    left: 92%;
     top: 25px;
     border: none;
     background-color: $bg-hero;
@@ -101,7 +101,7 @@
     width: 171px;
     height: 410px;
     left: 117px;
-    top: 92px;
+    top: 96px;
     background-image: url("../images/ice-cream-mobile.png");
     
     @media screen and (min-resolution: 2dppx) {
@@ -112,7 +112,7 @@
         width: 143px;
         height: 336px;
         left: 378px;
-        top: 63px;
+        top: 70px;
         background-image: url("../images/ice-cream-tablet.png");
 
         @media screen and (min-resolution: 2dppx) {
@@ -140,6 +140,7 @@
     left: 566px;
     top: 266px;
     @media screen and (min-width: 768px){
+        top: 273px;
         background-image: url("../images/baby-tablet.png");
         @media screen and (min-resolution: 2dppx) {
         background-image: url("../images/baby-tablet@2x.png");
@@ -161,7 +162,7 @@
     position: absolute;
     width: 124px;
     height: 126px;
-    left: 34px;
+    left: 0;
     top: 250px;
     @media screen and (min-width: 768px){
         background-image: url("../images/milk-tablet.png");
@@ -413,7 +414,7 @@
         position: absolute;
         width: 18px;
         height: 18px;
-        left: 154px;
+        left: 120px;
         top: 352px;
         background-image: url("../images/arrow-right-tablet.png");
 
