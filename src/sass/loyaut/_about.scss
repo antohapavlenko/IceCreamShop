@@ -1,0 +1,100 @@
+.about {
+    background-color: $bg-section;      
+}
+
+.about__wrapper {
+    padding-bottom: 240px;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        padding-bottom: 240px;
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        padding-bottom: 310px;
+    }
+}
+
+.about__img__one {
+    background-image: url("../images/cow.svg");
+    width: 33px;
+    height: 50px;
+    margin-bottom: 16px;
+    @media screen and (min-width: 768px) {
+        
+    }
+    @media screen and (min-width: 1280px) {
+        
+    }
+}
+.about__img__two {
+    background-image: url("../images/apple.svg");
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+    @media screen and (min-width: 768px) {
+        
+    }
+    @media screen and (min-width: 1280px) {
+        
+    }
+}
+.about__img__tree {
+    background-image: url("../images/heart.svg");
+    width: 44px;
+    height: 50px;
+    margin-bottom: 16px;
+    @media screen and (min-width: 768px) {
+        
+    }
+    @media screen and (min-width: 1280px) {
+        
+    }
+}
+
+.about__title {
+    padding-bottom: 16px;
+    font-family: Titan One;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $primary-color;
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+        line-height: 55px;
+    }
+    @media screen and (min-width: 1280px) {
+        font-size: 58px;
+        line-height: 66px;
+    }
+}
+
+.about__text {
+    width: 230px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 170%;
+    @media screen and (min-width: 768px) {
+        width: 195px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 174%;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 330px;
+        font-size: 16px;
+        line-height: 176%;
+    }
+}
+
+.about__item:not(:last-child) {
+    padding-bottom: 38px;
+    @media screen and (min-width: 768px) {
+        padding-right: 60px;
+        padding-bottom: 0;
+    }
+    @media screen and (min-width: 1280px) {
+        
+    }
+}
